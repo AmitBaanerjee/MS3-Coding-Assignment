@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace = "com.howtodoinjava.demo.mapper.DBFileStorageRepository">	
+
+   <resultMap id = "result" type = "com.howtodoinjava.demo.model.DBFile">
+      <result property = "id" column = "id"/>
+      <result property = "A" column = "A"/>
+      <result property = "B" column = "B"/>
+      <result property = "C" column = "C"/>
+      <result property = "D" column = "D"/>
+      <result property = "E" column = "E"/>
+      <result property = "F" column = "F"/>
+      <result property = "G" column = "G"/>
+      <result property = "H" column = "H"/>
+      <result property = "I" column = "I"/>
+   </resultMap>
+   	     
+   
+	<insert id="createTable" parameterType="String">
+		CREATE TABLE IF NOT EXISTS ${tableName} (
+		id INT,
+		A VARCHAR(10000),
+		B VARCHAR(10000),
+		C VARCHAR(10000),
+		D VARCHAR(10000),
+		E VARCHAR(50000),
+		F VARCHAR(15000),
+		G VARCHAR(15000),
+		H VARCHAR(15000),
+		I VARCHAR(15000),
+		J VARCHAR(15000));
+
+	</insert>
+	
+</mapper>
