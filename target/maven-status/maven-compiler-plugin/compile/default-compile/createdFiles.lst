@@ -1,6 +1,6 @@
-com/howtodoinjava/demo/service/DBFileService.class
-com/howtodoinjava/demo/DemoApplication.class
-com/howtodoinjava/demo/mapper/DBFileStorageRepository.class
-com/howtodoinjava/demo/exception/RecordNotFoundException.class
-com/howtodoinjava/demo/web/DBFileController.class
-com/howtodoinjava/demo/model/DBFile.class
+com\howtodoinjava\demo\exception\RecordNotFoundException.class
+com\howtodoinjava\demo\web\DBFileController.class
+com\howtodoinjava\demo\model\DBFile.class
+com\howtodoinjava\demo\DemoApplication.class
+com\howtodoinjava\demo\service\DBFileService.class
+com\howtodoinjava\demo\mapper\DBFileStorageRepository.class
