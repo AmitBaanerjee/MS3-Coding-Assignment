@@ -12,10 +12,10 @@ Based on the problem statement, i decided to develop the application using sprin
 3)Clone or download the code from this github repository<br>
 4)Open Eclipse and import this project into your workspace as the folder MS3-Coding-Assignment-master.<br>
 5)From the eclipse marketplace, install m2e extension for using maven commands like maven clean and maven install.<br>
-6)Right click on the project folder and run the application as maven clean.
-7)Right click on the project folder and run the application as maven install.
-8)Right click on the project folder and run the application as a java application.
-9)On the console , you would be able to see the application is running successfully.
+6)Right click on the project folder and run the application as maven clean.<br>
+7)Right click on the project folder and run the application as maven install.<br>
+8)Right click on the project folder and run the application as a java application.<br>
+9)On the console , you would be able to see the application is running successfully.<br>
 10)Start the postman app and send a post request to http://localhost:8080/assignment/import as import is our request mapping.
    Select form-data inside Body tab to send the csv file as a key and file. Enter "file" as the key and attach the file as          value.<br>
 11)As the resonse comes as true,it means the application has sucessfully parsed the csv input file. <br>
